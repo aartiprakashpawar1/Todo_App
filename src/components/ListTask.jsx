@@ -62,7 +62,7 @@ const ListTask = ({ tasks, setTasks }) => {
             <Heading
               as="h3"
               fontSize="lg"
-              bg={status=="started" ? "green.600" : status=="completed" ? "orange.600" : "blue.600"}
+              bg={status === "started" ? "green.600" : status === "completed" ? "orange.600" : "blue.600"}
               border="1px solid white"
               textTransform={"capitalize"}
               py="4"
