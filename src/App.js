@@ -43,7 +43,7 @@ function App() {
 
         <CreateTask tasks={tasks} setTasks={setTasks} />
         <br></br>
-        <div className="" style={{marginTop: "10px"}}>
+        <div className="" style={{marginTop: "20px"}}>
         <ListTask tasks={tasks} setTasks={setTasks} />
 
         </div>
