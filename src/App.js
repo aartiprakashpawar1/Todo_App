@@ -43,7 +43,10 @@ function App() {
 
         <CreateTask tasks={tasks} setTasks={setTasks} />
         <br></br>
+        <div className="" style={{marginTop: "10px"}}>
         <ListTask tasks={tasks} setTasks={setTasks} />
+
+        </div>
       </Flex>
 
     </>
